@@ -270,4 +270,4 @@ with gr.Blocks(theme=gr.themes.Default()) as demo:
         outputs=[chat_response, output_display, chart_output]
     )
 
-demo.launch(inline=True)
+
