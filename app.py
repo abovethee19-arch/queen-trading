@@ -189,7 +189,7 @@ def queen_ultimate_scanner_with_profit(execution_timeframe, account_size, levera
         master_report += f"   Execution Structure      : {setup_type} ({bias})\n"
         master_report += f"   Entry Limit              : {entry:.5f} | SL: {sl:.5f} | TP (1:3): {tp:.5f}\n"
         master_report += f"   Position Sizing          : {lots} Lots\n"
-        master_report += f"   💰 Risk vs Projected Profit: Risk: ${allowed_risk_dollars:,.2f} \vert{} Target Profit:${projected_profit_dollars:,.2f}\n"
+        master_report += f"   Risk vs Projected Profit: Risk: ${allowed_risk_dollars:,.2f} \vert{} Target Profit:${projected_profit_dollars:,.2f}\n"
         master_report += f"   ⏱️ Est. Time-to-Entry     : {format_time(entry_mins)}\n"
         master_report += f"   ⏱️ Est. Time-to-Target (TP): {format_time(tp_mins)}\n"
         master_report += f"   🔔 Lifecycle Status      : {status_label}\n"
