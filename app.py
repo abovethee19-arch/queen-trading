@@ -251,7 +251,7 @@ with gr.Blocks(theme=gr.themes.Default()) as demo:
             account_size = gr.Number(label="Account Balance ($)", value=10000.0)
             leverage = gr.Slider(label="Account Leverage", minimum=1, maximum=500, value=100, step=1)
             
-            with gr.Accordion("📱 Telegram Push Settings (Optional)", open=False):
+            with gr.Group("📱 Telegram Push Settings (Optional)", open=False):
                 tele_token = gr.Textbox(label="Bot Token", placeholder="Bot token...")
                 tele_chat_id = gr.Textbox(label="Chat ID", placeholder="Chat ID...")
                 
